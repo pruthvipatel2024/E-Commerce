@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <title>Mage Market</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
 
 <header class="header">
-    <th border=1px>
-        <tr><image src="static/images/logo.png" height="20px" width="10%"> </tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-    </th>
+    <div>
+        <table>
+            <th>
+                <td><image src="static/images/logo.png" class="logo"> </td>
+                <td>
+                    <form>
+                        <input type="text" name="search" placeholder="search your product here"> <button value="search">search </button>  </input>
+                    </form>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </th>
+        </table>
+    </div>
 </header>
